@@ -27,6 +27,7 @@ body {
     top: 0;
     background-color: whitesmoke;
     justify-content: center; 
+    z-index: 1;
 }
 
 .inner_header {
@@ -80,8 +81,11 @@ body {
     padding: 5px 10px;
     border: 0.2px solid #FFCCFD;
     border-radius: 25px;
+    font-size: 17px;
+    font-family: 'comfortaa';
     background-color: #FFCCFD;
     width: 300px;
+    height: 35px;
 }
 
 .nav-search:last-child {
@@ -96,7 +100,7 @@ body {
 }
 
 
-.get-intouch {
+/* .get-intouch {
     background-color: #330031;
     width: 1200px;
     height: 200px;
@@ -104,4 +108,71 @@ body {
     padding-top: 20px;
     bottom: 0;
     left: 0;
+} */
+
+.cinema-introduction {
+    padding: 20px;
+}
+
+.cinema-background {
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 950px;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to top left,#FFF3B0,  #CA26FF);
+    border-radius: 20px 20px 300px 20px;
+}
+
+.cinema-content {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    bottom: 100px;
+    margin-top: 100px;
+
+}
+
+.cinema-content h1, .cinema-content h2 {
+    margin: 10px;
+}
+.cinema-content h1 {
+    font-size: 45px;
+    font-style: bold;
+}
+
+.cinema-content h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.cinema-content p {
+    display: flex;
+    margin: 20px 0 10px 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    width: 650px;
+    height: 200px;
+}
+
+.cinema-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cinema-content button {
+    width: 175px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family: 'comfortaa';
+}
+
+.cinema-content button:hover {
+    background-color: azure;
+    color: black;
 }
