@@ -123,6 +123,8 @@ body {
     padding: 20px;
     background: linear-gradient(to top left,#FFF3B0,  #CA26FF);
     border-radius: 20px 20px 300px 20px;
+    margin-top: 58rem;
+    
 }
 
 .cinema-content {
@@ -175,4 +177,86 @@ body {
 .cinema-content button:hover {
     background-color: azure;
     color: black;
+}
+
+.movies-section{
+    width: 1340px;
+}
+/* .top-movies-list {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: auto;
+    margin: 15px;
+} */
+
+.movies-section {
+    padding: 20px;
+}
+
+.top-movies-grid {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+}
+
+.movie-item {
+    text-align: center;
+}
+
+.movie-item img {
+    width: 75%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.movie-item-pr img {
+    width: 75%;
+    height: 87.5%;
+    border-radius: 8px;
+}
+
+.movie-item button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 75%;
+    background-color: #330031;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 16px;
+} 
+
+.movie-item-pr button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 75%;
+    background-color: #330031;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 16px;
+} 
+
+.movie-item button:hover {
+    background-color: #fff;
+    color: #330031;
+}
+
+.movie-item-pr button:hover {
+    background-color: #fff;
+    color: #330031;
+}
+
+.movie-item img:hover {
+    transform: translate(2px, 1%);
+}
+
+.movie-item-pr img:hover {
+    transform: translate(2px, 1%);
 }
