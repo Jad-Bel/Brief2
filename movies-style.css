@@ -1,0 +1,44 @@
+.movies-section {
+    width: 100%;
+    padding: 20px;
+}
+
+.top-movies-grid {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.movie-item {
+    text-align: center;
+}
+
+.movie-item img {
+    width: 75%;
+    border-radius: 8px;
+    height: auto;
+}
+
+.movie-item button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 75%;
+    background-color: #330031;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 16px;
+} 
+
+
+.movie-item button:hover {
+    background-color: #fff;
+    color: #330031;
+}
+
+.movie-item img:hover {
+    transform: translate(2px, 1%);
+}
