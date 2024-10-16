@@ -49,9 +49,15 @@ body {
     justify-content: space-around;
 }
 
-.logo_container h1 {
+.logo_container span {
     color: black;
     font-size: 21px;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo_container span:hover {
+    color: #333;
+    font-size: 25px;
 }
 
 .nav-container {
@@ -69,7 +75,16 @@ body {
     color: black;
     font-size: 16px;
     padding: 10px;
+    gap: 30px;
     list-style-type: none;
+}
+
+.navigation a li{
+    transition: all 0.2s ease-in-out;
+}
+.navigation a li:hover {
+    color: #333;
+    font-size: 19px;
 }
 
 .nav-search {
@@ -88,6 +103,7 @@ body {
     background-color: #FFCCFD;
     width: 300px;
     height: 35px;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav-search:last-child {
@@ -101,6 +117,15 @@ body {
     cursor: pointer;
 }
 
+.nav-search input:focus {
+    background-color: #330031;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
 
 /* .get-intouch {
     background-color: #330031;
@@ -111,4 +136,16 @@ body {
     bottom: 0;
     left: 0;
 } */
-
+/* label {
+    display: block;
+    margin-top: 1em;
+  }
+  
+  input:focus {
+    background-color: lightblue;
+  }
+  
+  select:focus {
+    background-color: ivory;
+  }
+   */

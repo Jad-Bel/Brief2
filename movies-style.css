@@ -18,6 +18,8 @@
     width: 75%;
     border-radius: 8px;
     height: auto;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .movie-item button {
@@ -31,6 +33,7 @@
     border: 1px solid black;
     border-radius: 30px;
     font-size: 16px;
+    transition: all 0.2s ease-in-out;
 } 
 
 

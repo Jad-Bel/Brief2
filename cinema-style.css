@@ -66,6 +66,7 @@
     color: white;
     font-size: 17px;
     font-family: 'comfortaa';
+    transition: all 0.2s ease-in-out;
 }
 
 .cinema-content button:hover {
