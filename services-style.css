@@ -1,8 +1,12 @@
 .services {
-    margin: 0;
+    margin: 0 0 50px 0;
     padding: 0;
     height: 500px;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-title-container {

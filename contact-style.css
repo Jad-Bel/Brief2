@@ -57,7 +57,7 @@
     font-weight: bold;
     font-family: 'Comfortaa', sans-serif;
     border-radius: 10px;
-    border: 1px solid #fff;
+    border: 1px solid #330031;
     background-color: #330031;  
     color: #fff;
     transition: all 0.2s ease-in-out;
@@ -72,6 +72,7 @@
 .form-submit:hover {
     background-color: whitesmoke;
     color: #330031;
+    border: 1px solid whitesmoke;
 }
 
 

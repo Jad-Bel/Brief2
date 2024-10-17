@@ -14,10 +14,6 @@ body {
     height: auto;
     min-height: 100vh;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: whitesmoke;
 }
 
@@ -124,4 +120,30 @@ body {
 
 ::placeholder {
     color: #fff;
+}
+
+.movies-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    position: relative;
+    right: 40%;
+}
+
+.movies-header h2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 0 5px;
+    color: #333;
+    white-space: nowrap;
+   
+}
+
+.line-header {
+    flex-grow: 1;
+    border: none;
+    width: 1000px;
+    border: 1px solid black;
+    margin: 0 5px;
 }

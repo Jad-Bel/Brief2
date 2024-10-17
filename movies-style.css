@@ -1,7 +1,6 @@
 .movies-section {
-    width: 90%;
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    padding: 20px;
 }
 
 .top-movies-grid {
@@ -17,10 +16,10 @@
 
 .movie-item img {
     width: 75%;
-    border-radius: 8px;
+    border-radius: 40px;
     height: auto;
     transition: all 0.2s ease-in-out;
-
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .movie-item button {
@@ -44,5 +43,5 @@
 }
 
 .movie-item img:hover {
-    transform: translate(2px, 1%);
+    transform: scale(0.9);
 }
