@@ -125,27 +125,3 @@ body {
 ::placeholder {
     color: #fff;
 }
-
-
-/* .get-intouch {
-    background-color: #330031;
-    width: 1200px;
-    height: 200px;
-    position: fixed;
-    padding-top: 20px;
-    bottom: 0;
-    left: 0;
-} */
-/* label {
-    display: block;
-    margin-top: 1em;
-  }
-  
-  input:focus {
-    background-color: lightblue;
-  }
-  
-  select:focus {
-    background-color: ivory;
-  }
-   */

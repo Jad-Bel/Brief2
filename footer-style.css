@@ -178,37 +178,6 @@
     font-size: 15px;
 }
 
-/* .footer-comapny a {
-    margin: 10px 0;
-}
-
-.footer-comapny p {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 10px;
-}
-.footer-company a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    margin: 5px 0;
-}
-
-.footer-comapny a:hover {
-    text-decoration: underline;
-} */
-
-/* .footer-copyright {
-    color: #333;
-    display: flex;
-    /* grid-column: span 3; */
-    /* padding-top: ; */
-    /* font-size: 9px; */
-    /* font-family: arial, sans-serif; */
-/* } */
-
 .license-list {
     list-style-type: none;
     padding: 0;
