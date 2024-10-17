@@ -1,25 +1,3 @@
-/* .line-text {
-    text-align: left;
-    border-bottom: 1px solid #000;
-    line-height: 0.1em;
-    margin: 10px 0;
-  }
-  
-  .line-text {
-    
-    text-align: left;
-    margin-top: 4px;
-    font-size: 12px;
-    color: #333;
-    letter-spacing: 1px;
-  }
-
-  .line-text span {
-    background: #fff;
-    padding: 0 10px;
-  }
-   */
-
    .movies-header {
     display: flex;
     align-items: center;
@@ -41,7 +19,7 @@
 .line-header {
     flex-grow: 1;
     border: none;
-    width: 1500px;
+    width: 1100px;
     border: 1px solid black;
     margin: 0 5px;
 }

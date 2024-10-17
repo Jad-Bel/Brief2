@@ -4,19 +4,20 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    width: 100%;
+    width: 1280px;
+    height: 279px;
     font-family: 'Comfortaa', sans-serif;
 }
 
 .footer-container {
     max-width: 1200px;
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     align-items: start;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .footer-grid {
@@ -26,14 +27,16 @@
     height: 275px;
     gap: 20px;
     padding: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .social-links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 50px;
+    width: 400px;
+    padding: 10px 50px;
+    /* border: 1px solid yellow; */
 }
 
  /* .social-links ul {
@@ -44,26 +47,43 @@
 } */
 
 .social-links p {
-    font-weight: bold;
     margin: 10px;
+    padding: 10px;
 }
+.social-title {
+    font-weight: bold;
+    padding: 5px;
+    /* border: 1px solid blue; */
+}
+
+/* .social-title, .socials {
+
+} */
+
+
 
 .social-github, .social-linkedin {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    align-items: flex-start;
+    font-size: 13px;
+    /* border: 1px solid white; */
 }
 
-.social-github i, .social-linkedin i {
-    font-size: 24px;
+.social-github img, .social-linkedin img {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+    align-items: center;
+    /* border: 1px solid white; */
 }
 
 .footer-sponsors {
     border-left: 3px solid white;
     border-right: 3px solid white;
+    border-width: 2pxr;
     align-content: center;
     height: 200px;
-    width: 300px;
+    width: 400px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -72,7 +92,7 @@
     flex-direction: column;
     position: relative;
     /* gap: 20px; */
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
 } 
 .footer-sponsors .title {
     font-size: 16px;
@@ -96,19 +116,24 @@
 }
 
 .footer-sponsors, .sponsors-box {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: center;
     position: relative;
     top: 15px;
     display: block;
-    margin: 10px 0 ;    
+    margin: 5px 0;    
+}
+
+.spons-div1, .spons-div2 {
+    margin: 10px;
+    /* border: 1px solid blue; */
 }
 
 .footer-copyright {
     padding: 20px 0 0 0;
     position: relative;
-    top: 50px;
-    border: 1px solid yellow;
+    top: 20px;
+    /* border: 1px solid yellow; */
 }
 
 .footer-copyright p{
@@ -120,23 +145,23 @@
     /* margin-top: 10px; */
     font-weight: bold;
     position: relative;
-    left: 60px;
-    bottom: 4px;
-    border: 1px solid black;
+    left: 70px;
+    top: 2px;
+    /* border: 1px solid black; */
     
 }
 .footer-company {
     text-align: left;
     display: flex;
     flex-direction: column; 
-    gap: 50px; 
-    padding: 0 30px 30px 0; 
+    gap: 40px; 
+    /* padding: 0 0px 30px 0;  */
     color: white; 
     justify-content: center;
     position: relative;
-    left: 100px;
-    bottom: 20px;
-    border: 1px solid yellow;
+    left: 40px;
+    bottom: 30px;
+    /* border: 1px solid yellow; */
 
 }
 
