@@ -1,23 +1,20 @@
 .services {
     margin: 0 0 50px 0;
     padding: 0;
-    height: 500px;
+    height: 400px;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: right;
+    padding: 10%;
 }
 
 .services-title-container {
     display: flex;
-    align-items: flex-wrap;
-    width: auto;
-    height: 50px;
-    text-align: left; 
-    margin: 0;
-    position: relative;
-    left: 95px;
+    justify-content: flex-start;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .services-title {
@@ -28,11 +25,15 @@
 
 .services-grid {
     display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: 250px 250px 250px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
     gap: 50px;
     padding: 20px;
 }
+
+
 
 .services-item {
     display: flex;
@@ -41,15 +42,12 @@
 }
 
 .pricing-card {
-    position: relative;
-    top: 100px;
-    left: -130px;
-    width: 250px;
     border-radius: 20px;
     box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
     background-color: white;
     text-align: center;
     transition: all 0.2s ease-in-out;
+    
 }
 
 .pricing-card:hover {
@@ -72,18 +70,42 @@
 .card-body {
     padding: 15px 0;
     color: #333;
-    height: 270px;
+    height: auto;
 }
 
-pre.card-content {
+.card-content p{
     font-family: 'Comfortaa'; 
-    white-space: pre-wrap; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    align-content: flex-start;
     margin: 0;
     padding: 10px;
-    line-height: 1.5;
+    line-height: 2;
     font-size: 11px;
+}
+
+.services-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.services-info-span {
+    flex-basis: 65%;
     text-align: left;
-    
+    font-size: 13px;
+}
+
+.services-info-span-2 {
+    flex-basis: 30%;
+    text-align: right;
+    font-size: 13px;
+
 }
 
 .card-footer button {
@@ -103,3 +125,4 @@ pre.card-content {
     background-color: whitesmoke;
     color: #330031;
 }
+
