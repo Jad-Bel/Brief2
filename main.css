@@ -148,7 +148,6 @@ body {
 }
 
 .line-header-2 {
-    flex-grow: 1;
     width: 100%;
     border: 1px solid black;
     margin: 0 5px;
