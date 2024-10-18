@@ -5,19 +5,19 @@
     margin: 0;
     text-align: center;
     width: 1280px;
-    height: 279px;
+    height: 300px;
     font-family: 'Comfortaa', sans-serif;
 }
 
 .footer-container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0;
     padding: 0px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 30px;
     align-items: start;
-    /* border: 1px solid red; */
 }
 
 .footer-grid {
@@ -27,33 +27,24 @@
     height: 275px;
     gap: 20px;
     padding: 10px;
-    /* border: 1px solid red; */
 }
 
 .social-links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
+    height: 250px;
     width: 400px;
-    padding: 10px 50px;
-    /* border: 1px solid yellow; */
+    margin-top: 12px;
 }
 
- /* .social-links ul {
-    list-style-type: none;
-    padding: 10px;
-    margin: 15px;
 
-} */
-
-.social-links p {
-    margin: 10px;
-    padding: 10px;
-}
 .social-title {
     font-weight: bold;
-    padding: 5px;
-    /* border: 1px solid blue; */
+    align-items: center;
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 8px;
 }
 
 .social-title::before {
@@ -63,13 +54,15 @@
 }
 
 
-
-
 .social-github, .social-linkedin {
     display: flex;
     align-items: flex-start;
     font-size: 13px;
-    /* border: 1px solid white; */
+}
+
+.socials p {
+    width: 100%;
+    margin-top: 20px;
 }
 
 .social-github img, .social-linkedin img {
@@ -77,70 +70,60 @@
     height: 10%;
     margin: 10px;
     align-items: center;
-    /* border: 1px solid white; */
 }
 
 .footer-sponsors {
-    border-left: 3px solid white;
-    border-right: 3px solid white;
-    border-width: 2pxr;
-    align-content: center;
-    height: 200px;
+    height: 250px;
     width: 400px;
-    text-align: center;
     display: flex;
-    justify-content: center;
+    border-width: 1px;
     font-weight: bold;
-    font-size: 15px; 
-    flex-direction: column;
-    position: relative;
-    /* gap: 20px; */
-    /* border: 1px solid black;  */
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    margin-bottom: 20px;
 } 
-.footer-sponsors .title {
-    font-size: 16px;
+.footer-sponsors h1 {
+    font-size: 25px;
     gap: 20px;
-    margin: 10px;
+    padding-top: 0;
 }
 
-.title::before {
+.sponsors-title {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.sponsors-title::before {
     content: "◦";
     color: white;
-}
-.footer-sponsors, .sponsors {
-    position: relative;
-    top:  10px;
-    gap: 10px;
+    padding-right: 15px;
 }
 
-.footer-sponsors p{
+.footer-sponsors{
     display: flex;
     justify-content: center;
     font-weight: bold;
     font-size: 11px;
     line-height: 2;
-    /* border: 1px solid red; */
 }
 
 .footer-sponsors, .sponsors-box {
-    /* border: 1px solid red; */
     justify-content: center;
-    position: relative;
-    top: 15px;
     display: block;
-    margin: 5px 0;    
+    margin: 13px 0;   
 }
 
 .spons-div1, .spons-div2 {
     margin: 10px;
-    /* border: 1px solid blue; */
 }
 
 .footer-copyright {
-    padding: 20px 0 0 0;
+    padding: 0;
+    margin-top: 10px;
     position: relative;
-    top: 20px;
-    /* border: 1px solid yellow; */
+    top: 18px;
 }
 
 .footer-copyright p{
@@ -148,42 +131,39 @@
 }
 
 
-.footer-company p {
-    /* margin-top: 10px; */
+.footer-company {
+    width: 400px;
+    height: 275px;
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: centert;
+    margin: 12.5px;
+    color: white;
+}
+.company-title {
     font-weight: bold;
-    position: relative;
-    left: 70px;
-    top: 2px;
-    /* border: 1px solid black; */
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .company-title::before {
     content: "◦";
-    /* font-size: 25px; */
     color: white;
     padding-right: 15px;
     
-}
-.footer-company {
-    text-align: left;
-    display: flex;
-    flex-direction: column; 
-    gap: 40px; 
-    /* padding: 0 0px 30px 0;  */
-    color: white; 
-    justify-content: center;
-    position: relative;
-    left: 40px;
-    bottom: 30px;
-    /* border: 1px solid yellow; */
-
 }
 
 .auth-links,
 .extra-links {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    padding-left: 60px;
     gap: 100px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .footer-company a {
