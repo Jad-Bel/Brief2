@@ -123,11 +123,13 @@ body {
 }
 
 .movies-header {
+    /* width:100px; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 20px 0;
-    position: relative;
+    /* text-align: flex-start; */
+    background-color: #fff;
     right: 40%;
 }
 
@@ -142,8 +144,7 @@ body {
 
 .line-header {
     flex-grow: 1;
-    border: none;
-    width: 1000px;
+    width: 100%;
     border: 1px solid black;
     margin: 0 5px;
 }
